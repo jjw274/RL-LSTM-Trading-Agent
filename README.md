@@ -10,9 +10,6 @@ A reinforcement learning-based trading agent using Soft Actor-Critic (SAC) with 
 
 ## Repository Structure
 ```
-├── data/                           # Contains sample market data files
-├── models/                         # Contains saved models (SAC, LSTM)
-├── results/                        # Generated evaluation results and plots
 ├── src/                            # Source code for the trading agent and environment
 │   ├── sac.py                      # SAC training and agent setup
 │   ├── lstm.py                     # LSTM model for sequence modeling
